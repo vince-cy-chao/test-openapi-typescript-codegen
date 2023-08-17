@@ -1,0 +1,15 @@
+{
+  "name": "test-openapi-typescript-codegen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "openapi-codegen": "openapi --input ./test-openapi.json --output ./generated --useUnionTypes",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openapi-typescript-codegen": "^0.25.0"
+  }
+}
